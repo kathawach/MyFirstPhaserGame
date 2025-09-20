@@ -1,0 +1,13 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "phaser.phaser-ce"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm install"
+}
